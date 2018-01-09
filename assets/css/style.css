@@ -1,0 +1,55 @@
+
+
+#nameheader {
+	float: left;
+	background-color:#4aaaa5;
+	color: #fff;
+	padding: 20px;
+}
+
+#nav {
+	float: right;
+	padding: 40px;
+}
+
+#navabout {
+	float: left;
+}
+
+#navportfolio {
+	float: left;
+}
+
+#navcontact {
+	float: left;
+}
+
+#mainsectioncontent {
+	float: left;
+	width: 75%;
+}
+
+#bioimage {
+	float: left;
+}
+
+#sidebar {
+	float: left;
+	width: 25%;
+}
+
+#footer {
+	background-color: #666666;
+	clear: both;
+	text-align: center;
+	padding: 20px;
+}
+
+
+section {
+	clear: both;
+}
+
+h1 { 
+font-family:font-family: 'Georgia', Times, Times New Roman, serif;
+}

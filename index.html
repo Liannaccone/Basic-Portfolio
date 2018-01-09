@@ -4,34 +4,42 @@
 <head>
 <meta charset="utf-8">
 
-	<title>Luke Iannaccone</title>
+	<title>Luke Iannaccone | About Me</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
 
 	<!-- Heading ("Your Name") -->
-	<h1>Luke Iannaccone</h1>
+	<header id="nameheader">
+		<h1>Luke Iannaccone</h1>
+	</header>
+	
 
 	<!-- Navigation Pane -->
-	<div>About</div>
-	<div>Portfolio</div>
-	<div>Contact</div>
+	<nav id="nav">
+		<h4 id="navabout">About</h4>
+		<div id="navportfolio">Portfolio</div>
+		<div id="navcontact">Contact</div>
+	</nav>
 
 	<!-- About Me Section -->
-	<div id="aboutme">
-		<h2>About Me</h2>
-			<img src="./assets/images/imageplaceholder.jpeg">
-			<p> Marshmallow Jelly souffle pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffle topping wafer croissant oat cake gummi bears</p>
-			<p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffle. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cototn candy cake pudding.</p>
-	</div>
+	<section>
+		<div id="mainsectioncontent">
+			<h2>About Me</h2>
+				<img id="bioimage" src="./assets/images/imageplaceholder.jpeg" width="200" height="150">
+				<p> Marshmallow Jelly souffle pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffle topping wafer croissant oat cake gummi bears</p>
+				<p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffle. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cototn candy cake pudding.</p>
+		</div>
 
-	<!-- Connect With Me Section -->
-	<div id="connectwithme">
-		<h2>Connect with Me</h2>
-			<img src="./assets/images/gitimage.png">
-			<img src="./assets/images/linkedinimage.png">
-			<img src="./assets/images/stackoverflowimage.png">
-	</div>
+		<!-- Connect With Me Section -->
+		<div id="sidebar">
+			<h2>Connect with Me</h2>
+				<img src="./assets/images/gitimage.png" height="60" width="60">
+				<img src="./assets/images/linkedinimage.png" height="60" width="60">
+				<img src="./assets/images/stackoverflowimage.png" height="60" width="60">
+		</div>
+	</section>
 
 	<!-- Footer -->
 	<div id="footer">
