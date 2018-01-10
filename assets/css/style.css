@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+#header {
+	margin: 0px;
+}
+
+
 #nameheader {
 	float: left;
 	background-color:#4aaaa5;
@@ -118,6 +123,14 @@ li {
 	margin-left: auto:
 	margin-right:auto;
 }
+
+.button {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 21px;
+	font-size: 18px;
+}
+
 
 section {
 	clear: both;
