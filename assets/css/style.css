@@ -6,23 +6,32 @@
 
 #header {
 	margin: 0px;
+	background-color: #ffffff;
+	position: relative;
+	border-bottom: 2px solid gray;
+	height: 90px;
+	width: 100%;
 }
-
 
 #nameheader {
 	float: left;
 	background-color:#4aaaa5;
 	color: #fff;
-	padding: 20px;
-	margin-left: 180px;
-	margin-bottom: 0px;
-	margin-top: 0px;
+	padding: 40px;
+	width: 250px;
+	margin-top: 5px;
+	height: 80px;
+	position: absolute;
+	left: 105px;
+	bottom: 0px;
+	margin-left: 20px;
 }
 
 .navlist {
 	list-style-type: none;
 	margin-right: 180px;
 	float: right;
+	padding: 20px;
 }
 
 
@@ -30,6 +39,15 @@ li a {
 	float: left;
 	color: #666666;
 	padding: 8px;
+}
+
+li a:link{
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #4aaaa5;
+	color: white;
 }
 
 li {
@@ -43,18 +61,21 @@ li {
 
 #pagecontent {
 	clear: both;
-	border-top: 2px solid gray;
 	background-image: url("../images/concrete_seamless.png");
 	height:840px;
+	width: 960%;
+	padding-left: 105px;
+	padding-right: 105px;
 }
 
 #mainsectioncontent {
 	float: left;
 	width: 650px;
 	margin: 20px;
-	border: 1px solid gray;
+	border: 1px;
+	border: ;
 	padding: 20px;
-	background-color: white;
+	background-color: #ffffff;
 	clear: both;
 }
 
@@ -79,6 +100,10 @@ li {
 	padding: 20px;
 	color: #fff;
 	border-top: 8px solid #4aaaa5;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 20;
 }
 
 #box {
@@ -119,9 +144,10 @@ li {
 	color: white;
 }
 
+
 .elementcenter {
 	margin-left: auto:
-	margin-right:auto;
+	margin-right: auto;
 }
 
 .button {
@@ -132,27 +158,39 @@ li {
 }
 
 
+.fontbody {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
 section {
 	clear: both;
 }
 
-h1 { 
+h1 h2 h3 h4 h5 h6 { 
 	font-family:font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h2 {
-	font-family:font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	border-bottom: 2px solid gray;
+	font-size: large;
 	margin: 20px;
 	padding-bottom: 20px;
 }
 
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
 }
 
 
 body {
 	background-image: url("./assets/images/concrete_seamless.png");
+}
+
+form {
+	margin-left: 20px;
+	margin-right: 5px;
+	font-size: large;
 }
