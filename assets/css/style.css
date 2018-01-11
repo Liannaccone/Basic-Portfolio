@@ -1,4 +1,23 @@
 
+/*Colors*/
+/*Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd*/
+
+/*Dimensions*/
+/*The entire content area is 960px wide.
+The main section content is 650px wide.
+The sidebar is 270px wide.*/
+
+/*Font-families*/
+/*For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.*/
+
+
 
 * {
 	box-sizing: border-box;
@@ -8,7 +27,7 @@
 	margin: 0px;
 	background-color: #ffffff;
 	position: relative;
-	border-bottom: 2px solid gray;
+	border-bottom: 2px solid #cccccc;
 	height: 90px;
 	width: 100%;
 }
@@ -17,14 +36,15 @@
 	float: left;
 	background-color:#4aaaa5;
 	color: #fff;
-	padding: 40px;
-	width: 250px;
+	padding: 25px;
+	width: 270px;
 	margin-top: 5px;
 	height: 80px;
 	position: absolute;
 	left: 105px;
 	bottom: 0px;
 	margin-left: 20px;
+	font-size: xx-large;
 }
 
 .navlist {
@@ -63,7 +83,7 @@ li {
 	clear: both;
 	background-image: url("../images/concrete_seamless.png");
 	height:840px;
-	width: 960%;
+	width: 100%;
 	padding-left: 105px;
 	padding-right: 105px;
 }
@@ -73,7 +93,6 @@ li {
 	width: 650px;
 	margin: 20px;
 	border: 1px;
-	border: ;
 	padding: 20px;
 	background-color: #ffffff;
 	clear: both;
@@ -88,10 +107,11 @@ li {
 	float: left;
 	width: 270px;
 	margin: 20px;
-	border: 1px solid gray;
+	border: 1px solid #dddddd;
 	padding: 20px;
 	background-color: white;
 }
+
 
 #footer {
 	background-color: #666666;
@@ -111,12 +131,6 @@ li {
 	 float: left;
 	 margin: 20px;
 	 z-index: 2;
-}
-
-#row {
-	float: left;
-	margin: 20px;
-	position: relative;
 }
 
 .boxtitle {
@@ -145,18 +159,18 @@ li {
 }
 
 
-.elementcenter {
-	margin-left: auto:
-	margin-right: auto;
+.mediacenter {
+	margin-left: 50px:
+	margin-right: 0 auto;
 }
 
 .button {
 	background-color: #4aaaa5;
 	color: white;
-	padding: 21px;
+	padding: 15px;
 	font-size: 18px;
+	width: 120px;
 }
-
 
 .fontbody {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -171,10 +185,11 @@ h1 h2 h3 h4 h5 h6 {
 	font-family:font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+
 h2 {
 	color: #4aaaa5;
-	border-bottom: 2px solid gray;
-	font-size: large;
+	border-bottom: 3px solid #cccccc;
+	font-size: x-large;
 	margin: 20px;
 	padding-bottom: 20px;
 }
@@ -194,3 +209,8 @@ form {
 	margin-right: 5px;
 	font-size: large;
 }
+
+input {
+	width: 100%;
+}
+
