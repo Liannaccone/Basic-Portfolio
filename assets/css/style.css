@@ -54,6 +54,13 @@ For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.*/
 	padding: 20px;
 }
 
+.leftmargin {
+	margin-left: 20px;
+}
+
+.rightmargin {
+	margin-right:20px;
+}
 
 li a {
 	float: left;
@@ -77,6 +84,8 @@ li {
 
 .borderrightgray {
 	border-right: 1px solid gray;
+	padding-right:20px;
+	padding-left: 20px;
 }
 
 #pagecontent {
@@ -111,7 +120,6 @@ li {
 	padding: 20px;
 	background-color: white;
 }
-
 
 #footer {
 	background-color: #666666;
@@ -158,12 +166,6 @@ li {
 	color: white;
 }
 
-
-.mediacenter {
-	margin-left: 50px:
-	margin-right: 0 auto;
-}
-
 .button {
 	background-color: #4aaaa5;
 	color: white;
@@ -175,6 +177,7 @@ li {
 .fontbody {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+	line-height: 150%
 }
 
 section {
@@ -197,6 +200,7 @@ h2 {
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+	line-height: 150%;
 }
 
 
@@ -208,9 +212,18 @@ form {
 	margin-left: 20px;
 	margin-right: 5px;
 	font-size: large;
+	line-height: 150%;
 }
 
 input {
 	width: 100%;
+	margin-bottom: 20px;
+	padding:5px;
+	font-size: 15px;
+	color: #848484;
 }
 
+textarea {
+	margin-bottom: 20px;
+	border: solid 1px #dddddd;
+}
